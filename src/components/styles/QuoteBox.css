@@ -1,0 +1,55 @@
+.fondo{
+    /* display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    min-height: 100vh;
+    place-items: center;
+    width: min(100%, 400px);
+    padding: 20px 10px;
+    margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1, h4{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.bandera{
+    background-image: url("/public/img/bandera.png");
+    width: 800px; /* Ajusta el ancho según tus necesidades */
+    height: 400px; /* Ajusta la altura según tus necesidades */
+  
+    background-size: contain; /* Ajusta el tamaño de la imagen para cubrir todo el div */
+    background-position: center; /* Alinea la imagen al centro del div */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    font-size: 7vh;
+}
+p{
+    width: min(80%, 300px);
+    text-align: center;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: rgba(245, 222, 179, 0.463);
+    border-radius: 8px;
+    border: solid 2px white;
+    width: 15vh;
+    height: 5vh;
+  }
+footer{
+    display: flex;
+    justify-content: center;
+}
+h4{
+    font-size: 5vh;
+}
